@@ -1,7 +1,8 @@
 
 # Smart Grocery List
 
-![Heroku](https://heroku-badge.herokuapp.com/?app=smart-grocery-list)
+[![Build Status](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List.svg?branch=master)](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=smart-grocery-list)](https://smart-grocery-list.herokuapp.com/)
 
 ### Overview
 
