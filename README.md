@@ -41,6 +41,3 @@ Item {
   UPC: String
 
 }
-
-### Heroku App
-[Demo](https://smart-grocery-list.herokuapp.com/)
