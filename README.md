@@ -26,12 +26,17 @@ Item {
 
   Description: String
 
-  Isle: Int (? maybe string?)
+  Ideal_Quantity: Int
+
+  Purchase: Int
+
+  Isle: Int
 
   Unit Price:  Short
 
   UPC: String
 
-  Purchase: Int 
-
 }
+
+### Heroku App
+[Demo](https://smart-grocery-list.herokuapp.com/)
