@@ -1,4 +1,7 @@
+
 # Smart Grocery List
+
+[![Heroku](https://heroku-badge.herokuapp.com/?app=smart-grocery-list)]
 
 ### Overview
 
