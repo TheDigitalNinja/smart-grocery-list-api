@@ -1,1 +1,1 @@
-web: ls -alh && ./gradlew bootRun
+web: ./gradlew bootRun
