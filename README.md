@@ -16,6 +16,7 @@ This application with be written in java with the spring framework and jetty (be
 
 ### MVP
 
-The minimal viable product for this will simple be an api server with swagger endpoints for documentation and testing. It will assume there is only one user and no authentication or registration. 
+The mvp will be broken down into two separate projects.
 
-I should be able to create, reference, update, and delete any list item.
+* A restful  API endpoint that will serve and validate objects from the database.
+* A front end Angular 2.0 single page app to access and interact with the api layer. The css framework will be Angular Materials.
