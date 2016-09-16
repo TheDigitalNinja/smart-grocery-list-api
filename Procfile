@@ -1,1 +1,1 @@
-web: gradlew bootRun
+web: ./gradlew bootRun -Dserver.port=80
