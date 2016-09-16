@@ -3,12 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Smart Grocery List</title>
+
+    <!-- 1. Load libraries -->
+    <script src="https://rawgithub.com/systemjs/systemjs/0.19.6/dist/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/Rx.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"></script>
+
+    <!-- 2. Configure SystemJS -->
+    <script>
+      System.config({
+        transpiler: 'typescript',
+        typescriptOptions: { emitDecoratorMetadata: true },
+        packages: {'angular': {defaultExtension: 'ts'}}
+      });
+    </script>
+
+    <!-- 3. Bootstrap -->
+    <script>
+      System.import('angular2/platform/browser').then(function(ng){
+        System.import('angular/app').then(function(src) {
+          ng.bootstrap(src.App);
+        });
+      });
+    </script>
+
 </head>
 <body>
 
-<h1>Smart Grocery List</h1>
 
-<a href="/item">Items</a>
+<app>Loading...</app>
 
 </body>
 </html>
