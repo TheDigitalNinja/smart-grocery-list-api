@@ -1,1 +1,1 @@
-build gradlew clean build jar
+build: gradlew clean build jar
