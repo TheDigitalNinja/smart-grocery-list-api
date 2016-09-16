@@ -1,1 +1,1 @@
-web: sudo ./gradlew bootRun
+web: ls -alh && ./gradlew bootRun
