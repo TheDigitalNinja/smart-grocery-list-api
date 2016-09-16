@@ -1,1 +1,1 @@
-build: gradlew clean build jar
+build: chmod +x gradlew
