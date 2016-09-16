@@ -19,25 +19,3 @@ This application with be written in java with the spring framework and jetty (be
 The minimal viable product for this will simple be an api server with swagger endpoints for documentation and testing. It will assume there is only one user and no authentication or registration. 
 
 I should be able to create, reference, update, and delete any list item.
-
-### Object Models
-
-Item {
-
-  _ID: UUID
-
-  Name: String
-
-  Description: String
-
-  Ideal_Quantity: Int
-
-  Purchase: Int
-
-  Isle: Int
-
-  Unit Price:  Short
-
-  UPC: String
-
-}
