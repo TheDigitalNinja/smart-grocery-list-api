@@ -2,6 +2,7 @@
 # Smart Grocery List
 
 [![Build Status](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List.svg?branch=master)](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List)
+[![Coverage Status](https://coveralls.io/repos/github/TheDigitalNinja/Smart-Grocery-List/badge.svg?branch=master)](https://coveralls.io/github/TheDigitalNinja/Smart-Grocery-List?branch=master)
 [![Heroku](https://heroku-badge.herokuapp.com/?app=smart-grocery-list)](https://smart-grocery-list.herokuapp.com/)
 
 ### Overview
