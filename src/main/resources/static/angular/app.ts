@@ -6,6 +6,7 @@ import {Component} from 'angular2/core';
 
   // Location of the template for this component
   templateUrl: 'angular/main.html'
+
 })
 export class App {
 }

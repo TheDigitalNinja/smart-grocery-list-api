@@ -24,7 +24,9 @@
     <script>
       System.import('angular2/platform/browser').then(function(ng){
         System.import('angular/app').then(function(src) {
-          ng.bootstrap(src.App);
+          ng.bootstrap(src.App).then(function() {
+            componentHandler.upgradeAllRegistered()
+          });
         });
       });
     </script>
@@ -37,13 +39,10 @@
 </head>
 <body>
 
-<div class="mdl-grid">
-    <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--4-col">
-        <app>Loading...</app>
-    </div>
-    <div class="mdl-layout-spacer"></div>
-</div>
+
+<app>Loading...</app>
+
+
 
 </body>
 </html>
