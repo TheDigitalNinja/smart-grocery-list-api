@@ -3,7 +3,6 @@
 
 [![Build Status](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List.svg?branch=master)](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List)
 [![Coverage Status](https://coveralls.io/repos/github/TheDigitalNinja/Smart-Grocery-List/badge.svg?branch=master)](https://coveralls.io/github/TheDigitalNinja/Smart-Grocery-List?branch=master)
-[Deployed](http://smartgrocerylist.us-west-2.elasticbeanstalk.com/)
 
 ### Overview
 
