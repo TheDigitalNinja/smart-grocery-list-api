@@ -3,6 +3,7 @@
 
 [![Build Status](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List.svg?branch=master)](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List)
 [![Coverage Status](https://coveralls.io/repos/github/TheDigitalNinja/Smart-Grocery-List/badge.svg?branch=master)](https://coveralls.io/github/TheDigitalNinja/Smart-Grocery-List?branch=master)
+[Deployed](http://smartgrocerylist.us-west-2.elasticbeanstalk.com/)
 
 ### Overview
 
@@ -21,4 +22,4 @@ The mvp will be broken down into two separate projects.
 * A restful  API endpoint that will serve and validate objects from the database.
 * A front end Angular 2.0 single page app to access and interact with the api layer. The css framework will be Angular Materials.
 
-Deployed to [Elastic Beanstalk](http://smartgrocerylist.us-west-2.elasticbeanstalk.com/)
+Deployed via aws code pipeline to [Elastic Beanstalk](http://smartgrocerylist.us-west-2.elasticbeanstalk.com/)
