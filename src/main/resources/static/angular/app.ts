@@ -9,5 +9,8 @@ import {Component} from 'angular2/core';
 
 })
 export class App {
+
+  // Mockup of items
+  items = ['Coffee', 'Burritos', 'Cat Food', 'Paper Towles'];
 }
 
