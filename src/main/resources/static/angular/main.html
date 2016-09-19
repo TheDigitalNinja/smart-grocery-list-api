@@ -40,22 +40,25 @@
                         <div class="mdl-tabs__panel is-active" id="groceries-panel">
 
 
-
                             <!-- List -->
                             <ul class="mdl-list">
+                                <li *ngIf="items.length === 0" class="mdl-list__item">No grocery items.</li>
+
                                 <li *ngFor="#item of items" class="mdl-list__item">
                                     {{ item }}
                                 </li>
+
                                 <li class="mdl-list__item">
                                     <!-- Add -->
-                                    <form action="#">
+                                    <form action="#" (ngSubmit)="addItem()" #itemForm="ngForm">
                                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                            <input class="mdl-textfield__input" type="text" id="addGroceryInput">
+                                            <input class="mdl-textfield__input" type="text" id="addGroceryInput" [(ngModel)]="newItem.name" autocomplete="off">
                                             <label class="mdl-textfield__label" for="addGroceryInput">Add grocery list item</label>
                                         </div>
                                     </form>
                                 </li>
                             </ul>
+
 
                         </div>
                     </div>
