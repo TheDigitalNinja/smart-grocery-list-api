@@ -1,8 +1,10 @@
 
-# Smart Grocery List
+# Smart Grocery List API
 
 [![Build Status](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List.svg?branch=master)](https://travis-ci.org/TheDigitalNinja/Smart-Grocery-List)
 [![Coverage Status](https://coveralls.io/repos/github/TheDigitalNinja/Smart-Grocery-List/badge.svg?branch=master)](https://coveralls.io/github/TheDigitalNinja/Smart-Grocery-List?branch=master)
+
+Also See: [smart-gocery-list-frontend](https://github.com/TheDigitalNinja/smart-grocery-list-frontend)
 
 ### Overview
 
